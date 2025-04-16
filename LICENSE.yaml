@@ -1,0 +1,29 @@
+
+---
+
+## ✅ **.gitignore**
+```gitignore
+# Node.js
+node_modules/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Логи
+*.log
+
+# Службові файли
+.env
+.vscode/
+dist/
+build/
+*.class
+*.jar
+
+# ОС
+Thumbs.db
+desktop.ini
