@@ -1,3 +1,7 @@
 "lint-staged": {
 "**/*.js": ["eslint --fix", "prettier --write"]
 }
+"scripts": {
+"docs": "jsdoc -c jsdoc.json",
+"deploy-docs": "gh-pages -d docs"
+}
